@@ -39,7 +39,7 @@ header {
 }
 .top-wrapper {
   padding: 500px 0 115px 0;
-  background-image: url(/cake/cupcake.jpg);
+  background-image: url(./cake/cupcake.jpg);
   background-size: cover;
   color: azure;
   font-family: courier;
