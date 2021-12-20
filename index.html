@@ -5,8 +5,13 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Daffa Dhiya">
+    <meta name="keywords" content="ByyBackery.id">
+    <meta name="description" content="deskripsi website">
   <title>BYYY</title>
   <link rel="stylesheet" href="stylesheet.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
   
   <style></style>
 </head>
@@ -25,7 +30,7 @@
 
   <div class="top-wrapper">
     <h1>welcome to my website</h1>
-    <a href="#layanan">Shop Now</a>
+    <a href="#layanan" arial-label="Shop now">Shop Now</a>
   </div>
   <main>
     <div class="layanan" id="layanan">
@@ -34,7 +39,7 @@
           <h2>Daftar Menu</h2>
         </div>
         <div class="Semua-layanan">
-          <div class="card-layanan">
+          <div class="card-layanan" data-aos="zoom-in">
             <div class="layanan-img">
               <img src="/cake/cupcake cerry.jpg" />
               <p>Kue Valentine</p>
@@ -42,7 +47,7 @@
             </div>
             <a href="pemesanan">Pesan Sekarang</a>
           </div>
-          <div class="card-layanan">
+          <div class="card-layanan" data-aos="zoom-in">
             <div class="layanan-img">
               <img src="/cake/stberry.jpg" />
               <p>Kue Stawberry</p>
@@ -50,7 +55,7 @@
             </div>
             <a href="pemesanan">Pesan Sekarang</a>
           </div>
-          <div class="card-layanan">
+          <div class="card-layanan" data-aos="zoom-in">
             <div class="layanan-img">
               <img src="/cake/choclate.jpg" />
               <p>Kue Coklat</p>
@@ -58,7 +63,7 @@
             </div>
             <a href="pemesanan">Pesan Sekarang</a>
           </div>
-          <div class="card-layanan">
+          <div class="card-layanan" data-aos="zoom-in">
             <div class="layanan-img">
               <img src="/cake/waffele.jpg" />
               <p>Waffele</p>
@@ -66,7 +71,7 @@
             </div>
             <a href="pemesanan">Pesan Sekarang</a>
           </div>
-          <div class="card-layanan">
+          <div class="card-layanan" data-aos="zoom-in">
             <div class="layanan-img">
               <img src="/cake/cake.jpg" />
               <p>Kue Ulang Tahun</p>
@@ -74,7 +79,7 @@
             </div>
             <a href="pemesanan">Pesan Sekarang</a>
           </div>
-          <div class="card-layanan">
+          <div class="card-layanan" data-aos="zoom-in">
             <div class="layanan-img">
               <img src="/cake/cake buah.jpg" />
               <p>Pie Buah</p>
@@ -82,7 +87,7 @@
             </div>
             <a href="pemesanan">Pesan Sekarang</a>
           </div>
-          <div class="card-layanan">
+          <div class="card-layanan" data-aos="zoom-in">
             <div class="layanan-img">
               <img src="/cake/cake wedding.jpg" />
               <p>Kue Nikah</p>
@@ -90,7 +95,7 @@
             </div>
             <a href="pemesanan">Pesan Sekarang</a>
           </div>
-          <div class="card-layanan">
+          <div class="card-layanan" data-aos="zoom-in">
             <div class="layanan-img">
               <img src="/cake/kue-sus-basah.jpg" />
               <p>Sus</p>
@@ -102,7 +107,7 @@
         </div>
         <br>
         <br>
-        <div class="input-pesanan" id="pemesanan">
+        <div class="input-pesanan" data-aos="fade-right" id="pemesanan">
           <div class="container">
             <h3 class="section-title">Pemesanan</h3>
             <div class="form-pesanan">
@@ -149,7 +154,7 @@
         </div>
         <br>
         <br>
-        <div class="lokasi" id="lokasi">
+        <div class="lokasi" data-aos="zoom-in" id="lokasi">
           <div class="container">
             <h3 class="section-title">Lokasi</h3>
             <div class="detail-lokasi">
@@ -183,16 +188,16 @@
         </div>
         <br>
         <br>
-        <div class="contact" id="contact">
+        <div class="contact" data-aos="zoom-in-up" id="contact">
           <div class="container">
             <h3 class="section-title">Contact</h3>
             <div class="pribadi">
               <h1>Contact Me</h1>
-              <a href="https://www.instagram.com/daffadhyq/" target="_blank">Instagram</a>
+              <a href="https://www.instagram.com/daffadhyq/" arial-label="instagram" target="_blank">Instagram</a>
               <br>
-              <a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a>
+              <a href="https://web.whatsapp.com/" arial-label="whatsapp" target="_blank">Whatsapp</a>
               <br>
-              <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Email</a>
+              <a href="https://mail.google.com/mail/u/0/#inbox" arial-label="email" target="_blank">Email</a>
             </div>
           </div>
         </div>
@@ -212,7 +217,10 @@
   </div>
   </div>
   </main>
- 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

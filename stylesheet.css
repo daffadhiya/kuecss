@@ -12,7 +12,7 @@ header {
   height: 80px;
   width: 100%;
   position: fixed;
-  z-index: 0;
+  z-index: 99;
 }
 .logo {
   color: rgb(202, 153, 67);
